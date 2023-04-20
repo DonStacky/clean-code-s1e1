@@ -9,7 +9,6 @@ li, h3 {
   input,button{
   outline:none;
 }
-
 /* Basic Style */
 .wrapper {
   background-color: #f8f8f8;
@@ -28,11 +27,6 @@ li, h3 {
 .header__link {
   font-family: fantasy, cursive;
   font-weight: 100;
-}
-
-@media (max-width:768px) {
-.header { text-align: center;
-}
 }
 .main {
   display: block;
@@ -84,9 +78,6 @@ li, h3 {
 .task:focus {
   color: #333;
 }
-
-/* New Task */
-
 /* Task list */
 .section__item {
   overflow: hidden;
@@ -99,7 +90,6 @@ li, h3 {
 .section__item > * {
   vertical-align: middle;
 }
-
 .section__checkbox {
   margin: 0 10px;
 }
@@ -120,23 +110,26 @@ li, h3 {
 .section__del-img:hover {
   transform: rotateZ(0);
 }
-
 /* Completed */
 .section-complete__label {
   text-decoration: line-through;
   color: #888;
 }
-
 /* Edit Task */
 .section__input {
   display:none
 }
-
 .section__input {
   display:inline-block;
   width:224px
 }
-
 .section__label--edit {
   display:none;
 }
+
+@media (max-width:768px) {
+
+  .header { text-align: center;
+  }
+
+  }
