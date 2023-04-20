@@ -1,13 +1,13 @@
 /* Reset styles*/
 ul {
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
   input,button{
-  outline:none;
+  outline: none;
 }
 /* Basic Style */
 .wrapper {
@@ -117,19 +117,20 @@ li, h3 {
 }
 /* Edit Task */
 .section__input {
-  display:none
+  display: none
 }
 .section__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 .section__label--edit {
-  display:none;
+  display: none;
 }
 
 @media (max-width:768px) {
 
-  .header { text-align: center;
+  .header {
+    text-align: center;
   }
 
-  }
+}
