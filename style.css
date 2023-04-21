@@ -8,7 +8,7 @@ h3 {
   list-style: none;
 }
 input,
-button{
+button {
   outline: none;
 }
 /* Basic Style */
@@ -27,7 +27,7 @@ button{
   width: 100%;
 }
 .header__link {
-  font-family: fantasy, cursive;
+  font-family: Fantasy, cursive;
   font-weight: 100;
 }
 .main {
@@ -63,7 +63,15 @@ button{
   margin: 0;
   text-transform: uppercase;
 }
-.section__label,
+.section__label {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  font-family: Lato, sans-serif;
+  color: #333;
+}
 .section__input {
   margin: 0;
   font-size: 18px;
@@ -113,7 +121,7 @@ button{
   transform: rotateZ(0);
 }
 /* Completed */
-.section__label--complete {
+.section__list--complete .section__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -121,12 +129,17 @@ button{
 .section__input {
   display: none;
 }
-.section__input {
+.section__item--edit > .section__input {
   display: inline-block;
   width: 224px;
 }
-.section__label--edit {
+.section__item--edit > .section__label {
   display: none;
+}
+/* New Task */
+.section__input--add {
+  display: inline-block;
+  width: 318px;
 }
 @media (max-width:768px) {
 
