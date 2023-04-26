@@ -97,9 +97,6 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-.section__item > * {
-  vertical-align: middle;
-}
 .section__checkbox {
   margin: 0 10px;
 }
