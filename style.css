@@ -27,8 +27,7 @@ button {
   width: 100%;
 }
 .header__link {
-  font-family: Fantasy, cursive;
-  font-weight: 100;
+  font-family: fantasy, cursive;
 }
 .main {
   display: block;
